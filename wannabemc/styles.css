@@ -1,0 +1,95 @@
+* {
+    cursor: url(crs.png) 10 10, auto;
+}
+
+body {
+    background-color: rgba(34, 15, 105, 0.521);
+    margin: 0;
+}
+
+nav {
+    margin: 0;
+    padding: 10px;
+    cursor: url(crs.png) 10 10, auto;
+}
+
+header {
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgba(77, 73, 73, 0.253);
+}
+
+nav ul {
+    cursor: url(crs.png) 10 10, auto;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    cursor: url(crs.png) 10 10, auto;
+    color: white;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.267);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+nav ul li:hover {
+    background-color: rgba(194, 148, 148, 0.219);
+    color: orangered;
+    text-decoration: none;
+}
+
+.page-one{
+    background: url('comet.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 40px); 
+    display: flex;
+}
+
+.page-two{
+    background-image: url('teri.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex; 
+}
+
+.page-three{
+    background-color : white;
+}
+
+.page-four{
+    background-image: url('butterfly.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex; 
+}
+
+.page-five{
+    background-image: url('yaiba.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex; 
+}
+
+section{
+    display: flex;
+    scroll-snap-align: start;
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    margin-top: 20px;
+    justify-content: center;
+}
+
